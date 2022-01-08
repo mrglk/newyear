@@ -24,7 +24,7 @@
 
 .body {
     width: 100%;
-    background: #2A2C2F;
+    background: #830e10;
 }
 
 .site {
@@ -96,6 +96,10 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .lead__subtitle {
@@ -107,6 +111,10 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .lead__image {
@@ -117,6 +125,7 @@
     background-size: contain;
     /*height:553px;*/
     margin: 78px auto 0 auto;
+    border-radius: 50px;
 }
 
 .lead__caption {
@@ -137,6 +146,10 @@
     margin-left: auto;
     margin-right: auto;
     margin: 80px auto 0 auto;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .intro__title {
@@ -188,6 +201,7 @@
 
 .photo-grid__element {
     width: calc((1184px - (3*16px))/4);
+    border-radius: 20px;
 }
 
 .places {
@@ -205,6 +219,10 @@
     align-content: space-between;
     align-items: flex-end;
     position: relative;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .place__title {
@@ -225,6 +243,7 @@
     margin-top: 60px;
     width: 46%;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .place__url-heading {
@@ -290,6 +309,10 @@
     font-style: normal;
     font-weight: 900;
     text-align: center;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .content-subtitle {
@@ -301,6 +324,10 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .video__container {
